@@ -1,4 +1,4 @@
-Application 4: Dictionary
+Application 4: Portfolio Website
 
 Features:
 - live application deployment using python 
