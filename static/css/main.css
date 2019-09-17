@@ -1,0 +1,186 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+html{
+    background: url(back.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+header{
+    padding: 5px;
+    color: beige;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+    overflow: hidden;
+    border-width: thin;
+    background: rgba(0,0,0,0.4);
+}
+
+.menu{
+    /*To lose the bullets*/
+    list-style-type: none;
+    padding-top: 10px;
+  }
+
+  .menu li{
+    float: right;
+    margin-right: 10px;
+    margin-left: 10px;
+    color:#f0f0f0;
+    padding: 20px;
+    display: inline;
+    }
+
+  body {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    height: 100%;
+  }
+
+  .w3-allerta {
+    font-family: "Allerta Stencil", Sans-serif;
+    font-size: xx-large;
+  }
+
+
+
+  .aboutme{
+    padding: 20px;
+    width: 80%;
+    background: rgba(0,0,0,0.6);
+    margin-left: auto;
+    margin-right: auto;
+    color: beige;
+    font-size: large;
+  }
+
+  .aboutme ul{
+    padding: 10px;
+  }
+
+  .aboutme h1, h3{
+    color: #f0f0f0;
+    font-weight: bold;
+  }
+
+  .bigsize:hover, .bigsize:active {
+    font-size: 150%;
+    }
+
+
+  .projects{
+    padding: 20px;
+    background: rgba(0,0,0,0.6);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: beige;
+    border-radius: 5px;
+    font-size: large;
+    overflow: hidden;
+  }
+
+  .projects p{
+    padding: 10px;
+  }
+
+  .projects h1{
+    padding: 10px;
+    color: #f0f0f0;
+    font-weight: bold;
+  }
+
+  .projects ul{
+    padding: 10px;
+  }
+
+
+  .projects ol{
+    padding: 10px;
+  }
+
+  .projects div{
+      font-weight: bold;
+      color:  #f0f0f0;
+  }
+
+  .academics{
+    padding: 20px;
+    background: rgba(0,0,0,0.6);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: beige;
+    border-radius: 5px;
+    font-size: large;
+    overflow: hidden;
+  }
+
+  .academics p{
+    padding: 10px;
+  }
+
+  .academics h1{
+    padding: 10px;
+    color: #f0f0f0;
+    font-weight: bold;
+  }
+
+  .academics ul{
+    padding: 10px;
+    padding-left: : 10px;
+  }
+  .academics li{
+    padding: 10px;
+    padding-left: : 80px;
+  }
+
+  .academics ol{
+    padding: 20px;
+    padding-left: : 40px;
+  }
+
+  .academics div{
+      font-weight: bold;
+      color:  #f0f0f0;
+  }
+
+  .background{
+    padding: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: beige;
+    border-radius: 5px;
+    font-size: large;
+    background: rgba(0,0,0,0.6);
+    overflow: hidden;
+  }
+
+  .background h1,h3{
+    padding: 10px;
+    color: #f0f0f0;
+    font-weight: bold;
+  }
+
+  .background ul{
+    padding: 10px;
+  }
+
+  .skills ul {
+    padding: 20px;
+  }

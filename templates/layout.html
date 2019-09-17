@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Portfolio</title>
+      <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/main.css') }}">
+      <link rel="stylesheet" href="{{url_for('static',filename='css/header.css')}}">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+
+        <strong><nav>
+          <!--Unordered list-->
+          <ul class="menu">
+              <!--List items and anchor tags-->
+              <!--TItle in a tag will display information when you hover over the tag-->
+              <li> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=prajapativarun570@gmail.com"> <i class="fa fa-envelope"></i> </a>  </li>
+              <li> <a href="https://www.linkedin.com/in/varun-prajapati-047140ab/"> <i class="fa fa-linkedin"></i> </a>  </li>
+              <li> <a href="https://github.com/varun-prajapati"> <i class="fa fa-github"></i> </a>  </li>
+              <li><a href="{{ url_for('background') }}">Skills</a></li>
+              <li><a href="{{ url_for('projects') }}">Projects</a></li>
+              <li><a href="{{ url_for('academics') }}">Academics</a></li>
+              <li><a href="{{ url_for('aboutme') }}">Home</a></li>
+          </ul>
+       </nav></strong>
+       <br>
+       <br>
+       <h1 class="w3-container  w3-center w3-allerta">
+           <p class="w3-xxxlarge">Varun Prajapati</p>
+           <p class="w3-xlarge">Searching Job for a Developer profile</p>
+       </h1>
+      </div>
+    </header>
+    <div class="container">
+        {%block content%}
+        {%endblock%}
+    </div>
+  </body>
+</html>
